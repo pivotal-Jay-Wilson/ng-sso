@@ -1,0 +1,12 @@
+applications:
+- name: ssotestng
+  buildpacks:
+  - staticfile_buildpack
+  disk_quota: 512M
+  instances: 1
+  memory: 512M
+  random-route: true
+  stack: cflinuxfs3
+  path: dist/ng-sso/
+  services:
+  - sso-test-ng

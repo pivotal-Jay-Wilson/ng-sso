@@ -1,0 +1,9 @@
+{
+    "clientId": "1754c461-a96c-49bd-8ab0-1c3bb713cbc4",
+    "clientSecret": "8ca9acfe-7ca4-4483-a3aa-ce21d539ad87",
+        "scopes": [
+        "openid"
+        ],
+    "rejectUnauthorized": false,
+    "wellknown" : "https://sso-test-1.login.run-28.haas-59.pez.pivotal.io/.well-known/openid-configuration"
+}
